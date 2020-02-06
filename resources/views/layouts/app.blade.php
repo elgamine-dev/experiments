@@ -8,7 +8,7 @@
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
-    <title>{{ config('app.name', 'Laravel') }}</title>
+    <title>{{ config('app.name', 'Experiments') }} | @yield('title')</title>
 
     <link rel="manifest" href="/manifest.json">
     <!-- Scripts -->
@@ -16,7 +16,7 @@
     <script>
         window.firebaseConfig = {!! json_encode(config('firebase'), 2) !!};
     </script>
-    <script src="{{ asset('js/app.js') }}" defer></script>
+    <script src="@yield('js')" defer></script>
 
     <!-- Fonts -->
     <link rel="dns-prefetch" href="https://fonts.gstatic.com">

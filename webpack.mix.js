@@ -11,10 +11,13 @@ let mix = require('laravel-mix');
  |
  */
 
-mix.js('resources/assets/js/app.js', 'public/js')
+mix
+.js('resources/assets/js/app.js', 'public/js')
+.js('resources/assets/js/web-apis.js', 'public/js')
+
    .sass('resources/assets/sass/app.scss', 'public/css')
     .browserSync({
-        proxy:'http://localhost:8000',
-        //https: true,
-        open:false,
+        proxy:'https://experiments.ddev.site/',
+        https: true,
+        //open:false,
     });

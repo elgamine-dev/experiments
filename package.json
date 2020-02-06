@@ -20,5 +20,8 @@
         "lodash": "^4.17.13",
         "popper.js": "^1.12",
         "vue": "^2.5.7"
+    },
+    "dependencies": {
+        "laravel-mix-tailwind": "^0.1.0"
     }
 }
