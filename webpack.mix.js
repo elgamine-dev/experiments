@@ -14,7 +14,7 @@ let mix = require('laravel-mix');
 mix
 .js('resources/assets/js/app.js', 'public/js')
 .js('resources/assets/js/web-apis.js', 'public/js')
-
+.js('resources/assets/js/screen.js', 'public/js')
    .sass('resources/assets/sass/app.scss', 'public/css')
     .browserSync({
         proxy:'https://experiments.ddev.site/',

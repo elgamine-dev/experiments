@@ -12,18 +12,9 @@
 */
 Route::redirect('/', '/home');
 
-Route::get('/home', function () {
-    return view('home');
-});
-
-Route::get('/web-apis', function () {
-    return view('web-apis');
-});
-
-Route::get('/veille', function () {
-    return view('veille');
-});
-
 Auth::routes();
 
+Route::get('{view}', function($view) {
+    return view($view);
+});
 //Route::get('/home', 'HomeController@index')->name('home');

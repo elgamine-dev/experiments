@@ -6800,6 +6800,11 @@ stackframe@^1.0.3:
   version "1.0.4"
   resolved "https://registry.yarnpkg.com/stackframe/-/stackframe-1.0.4.tgz#357b24a992f9427cba6b545d96a14ed2cbca187b"
 
+stage-js@^0.8.11:
+  version "0.8.11"
+  resolved "https://registry.yarnpkg.com/stage-js/-/stage-js-0.8.11.tgz#702e40977612f8a1f629ef8c2c74020c808e8411"
+  integrity sha512-xq09tJMYcXIwq3HNUe4xWrQXP6hdpCdggHcE56aAPU229d0Y7tAsmNVMLjSel+Got/nXchW2zj75j4eYr5e0TA==
+
 stat-mode@^0.2.0:
   version "0.2.2"
   resolved "https://registry.yarnpkg.com/stat-mode/-/stat-mode-0.2.2.tgz#e6c80b623123d7d80cf132ce538f346289072502"
